@@ -1,0 +1,19 @@
+# Contenido que no debe subir a GitHub
+_privado/
+
+# Secretos y credenciales
+.env
+.env.*
+*.key
+*.pem
+*.p12
+secrets/
+credenciales*
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
